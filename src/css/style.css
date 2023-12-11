@@ -1,0 +1,70 @@
+
+.container {
+    padding: 50px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(../fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+@font-face {
+    font-family: Gamer;
+    src: url(../fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+
+
+.container h1 {
+    font-family: Nunito;
+}
+
+.resultado {
+    font-family: Nunito;
+}
+
+.cardPokemon { 
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 300px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.29);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.29);
+    border-radius: 10px;
+}
+
+.cardPokemon:hover{
+    height: 403px;
+    width: 303px;
+    transition: 0.2s;
+}
+
+.pokemon {
+    width: 50%;
+    height: 50%;
+
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.name-pokemon {
+    text-align: center;
+    padding-top: 40px;
+    font-family: Gamer;
+    font-size: 20px;
+}
+
+.abilities-title {
+    font-size: 15px;
+}
+.abilities-container {
+    margin-left: 30px;
+    padding-top: 30px;
+    font-family: Gamer;
+    font-size: 10px;
+}
