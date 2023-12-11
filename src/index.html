@@ -8,10 +8,15 @@
 </head>
 <body>
     <div class="container">
-
+        <div class="container-flex">
             <h1>Consulta à PokeAPI - Pokemons Iniciais</h1>
-            <h3>Pesquise a desgraç do pokemon inicial </h3>
-            <input type="text" name="" id="">
+            <h3 class="h3-title">Selecione o Pokémon desejado</h3>
+            <select class="select-pokemon">
+                <option value="charmander">Charmander</option>
+                <option value="bulbasaur">Bulbasaur</option>
+                <option value="squirtle">Squirtle</option>
+                <option value="pikachu">Pikachu</option>
+            </select>
             <div class="cardPokemon">
                 <h2 class="name-pokemon"></h2>
                 <img src="./imgs/pikachu.png" alt="" class="pokemon">
@@ -20,7 +25,7 @@
                     <div class="abilities-pokemon"> </div>
                 </div>
             </div>
- 
+        </div>
     </div>
     <script src="./js/index.js"></script>
 </body>
