@@ -1,4 +1,6 @@
 
+
+
 .container {
     padding: 50px;
     background-color: gainsboro;
@@ -31,6 +33,10 @@
     font-family: Nunito;
 }
 
+.container-cards {
+    flex-direction: row;
+}
+
 .resultado {
     font-family: Nunito;
 }
@@ -59,10 +65,9 @@
 }
 
 .pokemon {
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-    margin-left: 80px;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
 }
 
 .name-pokemon {
