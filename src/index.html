@@ -1,32 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Consulta à PokeAPI</title>
 </head>
+
 <body>
     <div class="container">
         <div class="container-flex">
+            
             <h1>Consulta à PokeAPI - Pokemons Iniciais</h1>
+            <img src="./imgs/pokeball.png" class="pokeball" alt="">
             <h3 class="h3-title">Selecione o Pokémon desejado</h3>
             <select class="select-pokemon">
                 <option value="charmander">Charmander</option>
                 <option value="bulbasaur">Bulbasaur</option>
                 <option value="squirtle">Squirtle</option>
-                <option value="pikachu">Pikachu</option>
             </select>
-            <div class="cardPokemon">
-                <h2 class="name-pokemon"></h2>
-                <img alt=""  class="pokemon">
-                <div class="abilities-container">
-                    <h2 class="abilities-title">Habilidades</h2>
-                    <div class="abilities-pokemon"> </div>
+            <div class="cards">
+                <div class="cardPokemon">
+
+                    <h2 class="name-pokemon"></h2>
+                    <img alt="" class="pokemon">
+                    <div class="row-container">
+                        <div class="abilities-container">
+                            <h2 class="abilities-title">Habilidades</h2>
+                            <div class="abilities-pokemon"> </div>
+                        </div>
+                        <div class="type"></div>
+                    </div>
+                </div>
+                <div class="cardPokemon">
+                    <h2 class="name-pokemon2"></h2>
+                    <img alt="" class="pokemon2">
+                    <div class="row-container">
+                        <div class="abilities-container">
+                            <h2 class="abilities-title">Habilidades</h2>
+                            <div class="abilities-pokemon2"> </div>
+                        </div>
+                        <div class="type2"></div>
+                    </div>
+                </div>
+                <div class="cardPokemon">
+                    <h2 class="name-pokemon3"></h2>
+                    <img alt="" class="pokemon3">
+                    <div class="row-container">
+                        <div class="abilities-container">
+                            <h2 class="abilities-title">Habilidades</h2>
+                            <div class="abilities-pokemon3"> </div>
+                        </div>
+                        <div class="type3"></div>
+          
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <script src="./js/index.js"></script>
 </body>
+
 </html>

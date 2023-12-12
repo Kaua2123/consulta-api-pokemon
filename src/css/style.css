@@ -1,14 +1,28 @@
+@font-face {
+    font-family: Nunito;
+    src: url(../fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
 
+@font-face {
+    font-family: Gamer;
+    src: url(../fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
 
+body {
+    background-color: rgb(113, 154, 216);
+}
 
 .container {
     padding: 50px;
-    background-color: gainsboro;
-    border-radius: 10px;
+    background-color: rgb(240, 98, 98);
+    border-radius: 12px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.32);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.32);
 }
 
 .container-flex {
@@ -18,53 +32,79 @@
     justify-content: center;
 }
 
-@font-face {
-    font-family: Nunito;
-    src: url(../fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
-}
-@font-face {
-    font-family: Gamer;
-    src: url(../fonts/Press_Start_2P/PressStart2P-Regular.ttf);
-}
-
-
 
 .container h1 {
     font-family: Nunito;
+    color: white;
+}
+
+.h1Pokeball {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
 }
 
 .container-cards {
     flex-direction: row;
 }
 
+.pokeball {
+    width: 50px;
+    height: 50px;
+
+}
+
+.select-pokemon {
+    padding: 5px;
+    border-radius: 6px;
+    font-family: Gamer;
+    text-transform: uppercase;
+}
+
 .resultado {
     font-family: Nunito;
 }
 
-.cardPokemon { 
+.cardPokemon {
     margin-top: 20px;
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
     height: 400px;
-    width: 300px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.29);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.29);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.29);
+    width: 320px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
     border-radius: 10px;
 }
 
-.cardPokemon:hover{
-    height: 403px;
-    width: 303px;
+
+.cardPokemon:hover {
+    -webkit-box-shadow: 10px 10px 48px 0px rgba(95, 95, 95, 0.75);
+    -moz-box-shadow: 10px 10px 48px 0px rgba(94, 92, 92, 0.75);
+    box-shadow: 10px 10px 48px 0px rgba(51, 48, 48, 0.75);
     transition: 0.2s;
 }
 
 .h3-title {
+    font-family: Nunito;
+    color: white;
     text-align: center;
 }
 
 .pokemon {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.pokemon2 {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.pokemon3 {
     width: 200px;
     height: 200px;
     margin-left: 50px;
@@ -77,12 +117,62 @@
     font-size: 20px;
 }
 
+.name-pokemon2 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: Gamer;
+    font-size: 20px;
+}
+
+.name-pokemon3 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: Gamer;
+    font-size: 20px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+}
+
 .abilities-title {
     font-size: 15px;
 }
+
 .abilities-container {
     margin-left: 30px;
     padding-top: 30px;
     font-family: Gamer;
     font-size: 10px;
+}
+
+.type {
+    margin-left: 20px;
+    padding-top: 60px;
+    font-family: Gamer;
+    font-size: 10px;
+    word-break: break-all;
+}
+
+.type2 {
+    margin-left: 20px;
+    padding-top: 60px;
+    font-family: Gamer;
+    font-size: 10px;
+    word-break: break-all;
+}
+
+.type3 {
+    margin-left: 20px;
+    padding-top: 60px;
+    font-family: Gamer;
+    font-size: 10px;
+    word-break: break-all;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
